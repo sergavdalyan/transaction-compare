@@ -14,7 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class CsvReconciliationControllerIntegrationTest {
+class TransactionReconciliationControllerIntegrationTest {
 
     @Autowired
     private MockMvc mockMvc;

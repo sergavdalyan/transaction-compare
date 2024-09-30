@@ -14,12 +14,12 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/api/reconcile")
-public class CsvReconciliationController {
+public class TransactionReconciliationController {
 
     private final CsvReconciliationService csvReconciliationService;
 
     @Autowired
-    public CsvReconciliationController(CsvReconciliationService csvReconciliationService) {
+    public TransactionReconciliationController(CsvReconciliationService csvReconciliationService) {
         this.csvReconciliationService = csvReconciliationService;
     }
 
